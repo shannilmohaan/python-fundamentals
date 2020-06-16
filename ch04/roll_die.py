@@ -11,7 +11,7 @@ face_5 = 0
 face_6 = 0
 
 #roll the die 6,000,000 times and count the occurences of each face.
-for i in range(6_000_000):
+for i in range(6_000_000): # used the _ here to make the number more readable.
     face = random.randrange(1,7)
     if face ==1:
         face_1 += 1
